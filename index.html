@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-in-a-Row Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">4-in-a-Row</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#game">Game</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to 4-in-a-Row</h1>
+            <p>Challenge yourself against our AI!</p>
+            <a href="#game" class="cta">Start Playing</a>
+        </div>
+    </section>
+    <section id="game">
+        <div class="game-container">
+            <h2>4-in-a-Row Game</h2>
+            <div id="game-board"></div>
+            <button id="reset" class="reset-btn">Reset</button>
+        </div>
+    </section>
+    <section id="about">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>We bring you the best board game experience right in your browser. Play 4-in-a-Row and challenge our smart AI!</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 4-in-a-Row. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
